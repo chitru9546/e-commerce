@@ -1,0 +1,109 @@
+@media screen and (max-width: 550px) {
+    #navbar-brand {
+      font-size: 1.7rem;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    input[type="search"] {
+      display: flex;
+      flex-direction: row;
+      width: 22rem;
+
+     border-radius: 0px 10px 0px 10px;
+     margin: 10px;
+    }
+    
+    .navbar-link {
+      display: flex;
+      flex-direction: column;
+    }
+    button[type="search"] {
+      border-radius: 0px 10px 0px 10px;
+      width: 10rem;
+     
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .Product_heading {
+      font-size: 2.5rem;
+      color: rgb(92, 83, 221);
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .inner_div h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .inner_div h1 {
+      margin-top: 0px;
+      font-size: 3rem;
+    }
+  
+    .inner_div p {
+      font-size: 1.5rem;
+      color: white;
+      font-weight: bold;
+      word-spacing: 1px;
+    }
+  }
+
+  /* sectin............................ */
+
+  @media screen and (max-width: 900px) {
+    .card-body .btn {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 2000px) {
+  .medium {
+    display: none;
+  }
+
+  .small {
+    display: none;
+  }
+  .large {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .large {
+    display: none;
+  }
+
+  .medium {
+    display: block;
+  }
+  .small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .large {
+    display: none;
+  }
+
+  .medium {
+    display: none;
+  }
+
+  .small {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .login_form_parent {
+    width: 70%;
+  }
+}
+ 

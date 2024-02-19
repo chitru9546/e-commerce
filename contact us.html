@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <div id="header-div"></div>
+    <!--we use it in daynamically-->
+
+    <div class="container contact_wapper my-5">
+      <h2 class="text-center py-2">Contact Us</h2>
+      <div
+        class="row p-5"
+        style="
+          background-color: rgb(96, 65, 231);
+          filter: drop-shadow(2px 2px 5px rgb(224, 36, 115));
+        "
+      >
+        <div class="col-lg-6 content_parent">
+          <figure class="Contact_Figure">
+            <img
+              src="https://www.solutions4ecommerce.com/wp-content/uploads/2018/01/ECommerce_Illustration_.png"
+              class="img-fluid"
+              alt="Model-img"
+            />
+          </figure>
+        </div>
+        <div class="col-lg-6">
+          <form id="form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name:</label>
+              <input
+                type="text"
+                placeholder="Enter Full Name"
+                required
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address:</label>
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                required
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Message:</label>
+              <textarea
+                rows="3"
+                placeholder="Write your concern..."
+                required
+                class="form-control"
+                id="exampleInputPassword1"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn w-100 mt-2 text-white fs-4">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <!--we use it in daynamically-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>

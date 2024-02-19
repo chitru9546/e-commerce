@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxF  r8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+
+  <body>
+    <div id="header-div"></div>
+    <!----we use it in daynamically----->
+
+    <div class="container">
+      <div class="row cart_container">
+        <div class="col-9 py-3">
+          <h2 class="py-3">Cart items</h2>
+          <div class="row cart">
+            <div class="col-sm-3 col-6">
+              <!-- <figure> -->
+              <img
+                src="https://th.bing.com/th/id/OIP.JP_uhx8SrHIEy5UiumdYqwHaJo?pid=ImgDet&rs=1"
+                class="img-fluid"
+                alt=""
+              />
+              <!-- </figure> -->
+            </div>
+            <div class="col-sm-3 col-6 mx-5 text-center cart-discription">
+              <h6 class="fs-3 text-capitalize font-monospace">
+                Mens blue jeans
+              </h6>
+              <h6 class="fs-2">&#8377;999/-</h6>
+              <i class="bi bi-trash3-fill"></i>
+            </div>
+            <div class="col-sm-3 col-12 text-center align-self-center">
+              <div
+                class="text-center d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-dash-lg"></i>
+                <span>1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+            </div>
+            <hr class="my-4" />
+
+            <div class="col-sm-3 col-6">
+              <!-- <figure> -->
+              <img
+                src="https://i.pinimg.com/originals/13/be/92/13be92be6ccb6a8b9cc60f09495e9c18.jpg"
+                class="img-fluid"
+                alt="product"
+              />
+              <!-- </figure> -->
+            </div>
+            <div class="col-sm-3 col-6 mx-5 text-center cart-discription">
+              <h6 class="fs-3 text-capitalize font-monospace">
+                Mens white Full shirt
+              </h6>
+              <h6 class="fs-2">&#8377;799/-</h6>
+              <i class="bi bi-trash3-fill"></i>
+            </div>
+            <div class="col-sm-3 col-12 text-center align-self-center">
+              <div
+                class="text-center d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-dash-lg"></i>
+                <span>1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+            </div>
+            <hr class="my-4" />
+
+            <div class="col-sm-3 col-6">
+              <!-- <figure> -->
+              <img
+                src="https://th.bing.com/th/id/OIP.H5uwrNz7ly_D7a9ctfhGQwHaHl?pid=ImgDet&rs=1"
+                class="img-fluid"
+                alt=""
+              />
+              <!-- </figure> -->
+            </div>
+            <div class="col-sm-3 col-6 mx-5 text-center cart-discription">
+              <h6 class="fs-3 text-capitalize font-monospace">denim jacket</h6>
+              <h6 class="fs-2">&#8377;699/-</h6>
+              <i class="bi bi-trash3-fill"></i>
+            </div>
+            <div class="col-sm-3 col-12 text-center align-self-center">
+              <div
+                class="text-center d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-dash-lg"></i>
+                <span class="">1</span>
+                <i class="bi bi-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-12" style="position: sticky; top: 25%">
+          <div class="summary">
+            <h5 class="text-center fs-3">Summary</h5>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <strong class="fs-4">Cost</strong>
+              <em class="px-2" style="font-size: 15px; font-weight: bold"
+                >&#8377;2499/-</em
+              >
+            </div>
+            <div class="d-flex justify-content-between">
+              <strong class="fs-4">Shopping</strong>
+              <em class="px-2" style="font-size: 15px; font-weight: bold"
+                >&#8377;6000/-</em
+              >
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+              <strong class="fs-4">Total</strong>
+              <em style="font-size: 20px; font-weight: bold">&#8377;9999/-</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer"></footer>
+    <!--we use it in daynamically-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>

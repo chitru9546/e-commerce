@@ -1,0 +1,7 @@
+***Thought Note: By kumari chitra FSD PGC 2024.  ****
+I have completed my Module Assignment -"Developing the Backend functionality via Node and Express.
+I have done all the things mentioned in the assignments correctly.
+I have created a student database.
+I have created POST request that accepts all details of student.
+All students ID is unique.
+I have created endpoints that retrives all the data.
